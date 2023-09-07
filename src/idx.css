@@ -25,7 +25,7 @@ body {
   justify-content: center;
 }
 
-.app {
+.container {
   min-height: 66vh;
   display: grid;
   grid-template-columns: 34rem 44rem;
@@ -99,14 +99,6 @@ body {
   margin-right: 1.2rem;
 }
 
-.green {
-  color: #66a80f;
-}
-
-.red {
-  color: #e03131;
-}
-
 form {
   font-size: 1.6rem;
   display: grid;
@@ -117,12 +109,12 @@ form {
   border-radius: 7px;
 }
 
-.form-add-friend {
+/* .form-add-friend {
   grid-template-columns: 1fr 1.5fr;
   margin-bottom: 1.6rem;
   padding: 1.2rem;
-}
-.form-split-bill {
+} */
+.add-story {
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
 }
@@ -131,11 +123,11 @@ label {
   font-weight: 500;
 }
 
-label::first-letter {
+/* label::first-letter {
   display: inline-block;
   margin-right: 4px;
   font-size: 1.8rem;
-}
+} */
 
 input,
 select {
